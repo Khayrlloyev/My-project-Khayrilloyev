@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serifs;
+}
+
+a {
+  text-decoration: none;
+}
+
+.box {
+  max-width: 1519px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  background-color: rgba(0, 0, 0, 0.686);
+  position: fixed;
+  left: 1px;
+  right: 1px;
+
+  padding: 0px 8px 2px 8px;
+}
+.header ul {
+  display: flex;
+
+  text-align: center;
+}
+.header img {
+  margin: 15px;
+}
+.header li {
+  cursor: pointer;
+  letter-spacing: 1.1px;
+  margin: 10px 16px 10px 16px;
+  font-weight: 400;
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  color: rgb(209, 209, 209);
+  list-style: none;
+}
+.macbook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.box-macbook {
+  background-color: rgb(246, 246, 246);
+}
+.kontent h2 {
+  font-size: 56px;
+  font-weight: 600;
+  margin-top: 30px;
+  color: rgb(32, 32, 32);
+}
+.kontent h3 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 8px;
+  color: rgb(27, 27, 27);
+}
+.kontent p {
+  color: rgb(94, 94, 94);
+  font-size: 21px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.Url {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Url p {
+  font-size: 21px;
+  margin-top: 20px;
+  color: rgb(122, 122, 255);
+}
+.Url a {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+.img1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-Airpods {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  height: 600px;
+  background-color: black;
+}
+.h2 {
+  display: flex;
+  margin-top: 10px;
+}
+.Airpods h3 {
+  color: white;
+  font-size: 26px;
+  margin-left: 8px;
+}
+.Airpods h1 {
+  color: white;
+  font-size: 56px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.margin {
+  margin-left: 50px;
+}
+.Airpods h2 {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#cb1333),
+    color-stop(#de45c1),
+    color-stop(#b96be2),
+    color-stop(#84a9e0),
+    color-stop(#23d43b),
+    color-stop(#d0bb08),
+    to(#eb6d17)
+  );
+  background: -webkit-linear-gradient(
+    left,
+    #cb1333,
+    #de45c1,
+    #b96be2,
+    #84a9e0,
+    #23d43b,
+    #d0bb08,
+    #eb6d17
+  );
+  background: linear-gradient(
+    90deg,
+    #cb1333,
+    #de45c1,
+    #b96be2,
+    #84a9e0,
+    #23d43b,
+    #d0bb08,
+    #eb6d17
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+.Url1 {
+  display: flex;
+  justify-content: center;
+}
+.Url1 a {
+  margin: 20px 15px 2px 15px;
+  color: rgb(0, 161, 225);
+  font-size: 21px;
+}
+.box-Vision {
+  height: 580px;
+  background-color: rgb(243, 243, 243);
+}
+.Vision {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vision-text img {
+  width: 60px;
+  height: 60px;
+}
+.df {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 200px;
+  font-size: 30px;
+}
+.vision-text p {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 200px;
+}
+.box-cart {
+  height: 580px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.cart {
+  margin: 5px;
+  width: 50%;
+  height: 100%;
+  background-color: #fbfbfd;
+  padding: 30px;
+}
+.Traid-in {
+  margin: 5px;
+  width: 50%;
+  height: 100%;
+  background-color: #fbfbfd;
+}
+.df2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.df2 h1 {
+  font-size: 40px;
+}
+.p {
+  font-size: 21px;
+  margin-top: 5px;
+  margin-left: 200px;
+  max-width: 300px;
+  text-align: center;
+}
+.Url2 {
+  display: flex;
+}
+.Traid-in {
+  padding: 30px 0px;
+}
+.d {
+  max-width: 350px;
+  font-size: 21px;
+  margin-top: 5px;
+  margin-left: 200px;
+  text-align: center;
+}
+.box-cart2 {
+  display: flex;
+}
+.ong {
+  margin: 20px 0px 20px 10px;
+  background-color: #fbfbfd;
+  width: 50%;
+  height: 580px;
+}
+.text {
+  margin-top: 10px;
+}
+.text h1 {
+  color: rgb(245, 245, 247);
+  text-align: center;
+  font-size: 40px;
+}
+.text p {
+  color: rgb(245, 245, 247);
+  text-align: center;
+  font-size: 21px;
+}
+
+.text2 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text2 h1 {
+  font-size: 40px;
+}
+.chap {
+  margin: 20px 0px 20px 10px;
+  background-color: #000000;
+  width: 50%;
+  height: 580px;
+}
+.text-contenier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Url p {
+  color: rgb(0, 161, 225);
+}
+.text-content p {
+  font-size: 21px;
+  text-align: center;
+}
+.footer {
+  margin-top: 20px;
+  padding: 20px 270px 20px 270px;
+  width: 100%;
+  height: 950pxpx;
+  background-color: #efefef;
+}
+.footer p {
+  color: rgb(121, 121, 121);
+
+  font-size: 14px;
+}
+.border {
+  border: 0.5px solid rgb(70, 70, 70);
+  width: 100%;
+  height: 0.5px;
+}
+.display-flex {
+  display: flex;
+  margin-right: 20px;
+}
+.display-flex p {
+  color: #383838;
+  margin-top: 10px;
+}
+.display-flex h6 {
+  font-size: 12px;
+}
+.margine {
+  width: 165px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.footer a {
+  color: #84a9e0;
+}
+.pasti1 p {
+  margin-top: 10px;
+}
